@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(pnpm add:*)",
-      "Bash(pnpm dlx:*)"
+      "Bash(pnpm dlx:*)",
+      "Bash(pnpm build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx shadcn@latest add input select textarea badge card --yes)"
     ]
   }
 }
